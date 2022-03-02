@@ -7,5 +7,5 @@
 <h3>Files:</h3>
 <ol>
   <li>MySqlConnectionIsertion.py</li>
-  <p><\n\t In order to run this file, first you have to run an Sql server and connect whether with CLI or and UI solution (PhpMyAdmin in our case).</p>
+  <p><\n><\t> In order to run this file, first you have to run an Sql server and connect whether with CLI or and UI solution (PhpMyAdmin in our case).</p>
 </ol>
