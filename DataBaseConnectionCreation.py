@@ -14,7 +14,8 @@ try:
                         password='root')
     if connection.is_connected():
         cursor = connection.cursor()
-        cursor.execute("CREATE DATABASE IF NOT EXISTS LOL") #creating the database
+        cursor.execute('DROP DATABASE IF EXISTS `LOL`;')
+        cursor.execute('CREATE DATABASE `LOL`;') #creating the database
         # print("Database is created")
 
 except Error as e:
