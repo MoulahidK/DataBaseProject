@@ -12,5 +12,5 @@
 </ol>
 
 <h3>Récupération des 10 premiers minutes:</h3>
-<h2>Ordre SQL à executer:</h2>
+<h4>Ordre SQL à executer:</h4>
 <p>SELECT * FROM `Match` WHERE _id = `_id` ORDER BY `_id` ASC LIMIT 10</p>
