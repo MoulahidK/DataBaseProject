@@ -10,3 +10,7 @@
   <p>In order to run this file, first you have to run an Sql server and connect whether with CLI or and UI solution (PhpMyAdmin in our case).</p>
    <p>If you use PhpMyAdmin on a Windows machine, check credentials before running .</p>
 </ol>
+
+<h3>Récupération des 10 premiers minutes:</h3>
+<h2>Ordre SQL à executer:</h2>
+<p>SELECT * FROM `Match` WHERE _id = `_id` ORDER BY `_id` ASC LIMIT 10</p>
