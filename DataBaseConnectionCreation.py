@@ -22,4 +22,4 @@ except Error as e:
     print("Error while connecting to MySQL", e)
 
 connection = mysql.connect(host='localhost', database='LOL',
-    					 user='root', password='root') # Establishing the connection with MySql server and specific database 
+    					 user='root', password='root') # Establishing the connection with MySql server with our specific database 
